@@ -61,10 +61,6 @@ const MessageSchema = new mongoose.Schema({
 const Message = mongoose.model('Message', MessageSchema);
 
 const User = require('./models/User');
-const { type } = require('os');
-const { rejects } = require('assert');
-const { buffer } = require('stream/consumers');
-
 
 // Connect DB
 connectDB();
