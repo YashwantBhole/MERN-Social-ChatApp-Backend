@@ -178,7 +178,7 @@ io.on("connection", (socket) => {
           };
 
           const response = await admin.messaging().sendEachForMulticast(fcmMessage);
-          // const response = await admin.messaging().sendMulticast(fcmMessage);
+      
 
           //clean up invalid tokens
           if (response.failureCount > 0) {
