@@ -161,7 +161,9 @@ io.on("connection", (socket) => {
       if (admin.apps.length) {
         //find reciepiennts with tokens exxcluding sender
         const recipients = await User.find({ email: { $ne: payload.from }, fcmToken: { $exists: true, $ne: null } }).lean();
-        const tokens = recipients.map(r => r.fcmToken).filter(Boolean);
+        let tokens = recipients.map(r => r.fcmToken).filter(Boolean);
+        tokens = Array.from(new Set(tokens)); 
+
         if (tokens.length) {
           const fcmMessage = {
             notification: {
