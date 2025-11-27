@@ -15,10 +15,10 @@ const path = require('path');
 
 const app = express();
 const server = http.createServer(app);
-const io = new Server(server, { cors: { origin: 'https://firemern.netlify.app' } });
+const io = new Server(server, { cors: { origin: ['https://firemern.netlify.app', 'http://localhost:5173'] } });
 
 app.use(cors({
-  origin : "https://firemern.netlify.app"
+  origin :[ 'https://firemern.netlify.app', 'http://localhost:5173' ]
 }));
 app.use(express.json());
 
@@ -84,6 +84,7 @@ app.post('/api/token', async (req, res) => {
     res.status(500).json({ error: "server error " });
   }
 });
+
 
 
 // POST /api/upload  -> accepts form field 'file'
