@@ -106,7 +106,8 @@ FIREBASE_PRIVATE_KEY=your_private_key
 ## 👤 Author & Connect With Me
 
 <div align="center">
-
+## 👤 Author & Connect With Me
+  
 ### **Yashwant Bhole**
 
 <p align="center">  
