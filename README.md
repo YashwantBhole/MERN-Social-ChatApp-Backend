@@ -100,3 +100,31 @@ CLOUDINARY_API_SECRET=your_api_secret
 FIREBASE_PROJECT_ID=your_project_id
 FIREBASE_CLIENT_EMAIL=your_client_email
 FIREBASE_PRIVATE_KEY=your_private_key
+
+```
+---
+## 👤 Author & Connect With Me
+
+<div align="center">
+
+### **Yashwant Bhole**
+
+<p align="center">  
+  <a href="https://www.linkedin.com/in/yashwantbhole/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:yashwantbhole2004@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+  <a href="https://github.com/YashwantBhole" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</p>
+
+💼 *Full Stack Developer — MERN • Java • Spring Boot*  
+🌟 *Building AI-powered systems with clean architecture and strong UI/UX.*
+
+</div>
+
+---
+
