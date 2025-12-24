@@ -105,11 +105,11 @@ FIREBASE_PRIVATE_KEY=your_private_key
 ---
 ## 👤 Author & Connect With Me
 
-<div align="left">
+<div align="center">
   
 ### **Yashwant Bhole**
 
-<p align="left">  
+<p align="center">  
   <a href="https://www.linkedin.com/in/yashwantbhole/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
