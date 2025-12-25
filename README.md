@@ -29,10 +29,6 @@ This backend focuses on **real-time messaging, media handling, and notifications
 
 ---
 
-## 🧠 High-Level Architecture
-
-
-
 ## 🧠 Architecture Overview
 
 Client (Frontend)  
@@ -40,8 +36,6 @@ Client (Frontend)
 → REST APIs (message storage, notifications)  
 → Cloudinary (image uploads)  
 → Firebase FCM (push notifications)
-
----
 
 
 ---
