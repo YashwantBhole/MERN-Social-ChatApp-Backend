@@ -12,7 +12,7 @@ This backend focuses on **real-time messaging, media handling, and notifications
 
 ## 🔗 Related Repository
 
-- **Frontend App:** https://github.com/YashwantBhole/MERN-Social-ChatApp-Frontend  
+- **Frontend App:** https://github.com/YashwantBhole/mern-social-chatapp-frontend
 - **Live Demo:** https://firemern.netlify.app/  
 
 ---
